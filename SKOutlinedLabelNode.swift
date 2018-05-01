@@ -61,9 +61,6 @@ class SKOutlinedLabelNode: SKLabelNode {
                     border.zPosition = -10
                 }
                 
-                print(self.zPosition)
-                print(border.zPosition)
-                
                 addChild(border)
                 
                 self.border = border
