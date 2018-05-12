@@ -48,7 +48,7 @@ class SKOutlinedLabelNode: SKLabelNode {
             self.text = text
             if let path = createBorderPathForText() {
                 let border = SKShapeNode()
-                
+                border.name = self.name
                 border.strokeColor = borderColor
                 border.lineWidth = borderWidth;
                 border.path = path
